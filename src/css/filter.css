@@ -1,0 +1,12 @@
+
+.double-input-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.double-input-row input[type="number"],
+.double-input-row input[type="date"] {
+    flex: 1 1 0;
+    min-width: 0;
+}

@@ -1,0 +1,81 @@
+.an-section {
+    margin-top: 32px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 38px 34px 30px 34px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 34px rgba(60,65,100,0.08);
+}
+.an-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.an-desc {
+    color: #666;
+    font-size: 1.08rem;
+    margin-bottom: 26px;
+}
+.an-cards-row {
+    display: flex;
+    gap: 30px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+.an-card {
+    flex: 1;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 22px 20px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+}
+.an-card-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.an-card-purple { background: #e5dcfd; color: #7050ce; }
+.an-card-blue { background: #d8eafe; color: #3270cf; }
+.an-card-green { background: #d6f7ed; color: #22b77e; }
+.an-card-orange { background: #ffe6d2; color: #ef881a; }
+.an-card-value {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #262931;
+}
+.an-card-label {
+    color: #8188a2;
+    font-size: 1.08rem;
+    font-weight: 500;
+    margin-top: 3px;
+}
+@media (max-width: 900px) {
+    .an-cards-row { flex-direction: column; gap: 18px;}
+}
+
+.an-mini-chart {
+    background: #f9fafb;
+    border-radius: 12px;
+    margin-top: 35px;
+    padding: 20px 18px 5px 18px;
+    box-shadow: 0 1px 5px rgba(34,60,80,0.035);
+    max-width: 100%;
+}
+.an-mini-chart-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #28456b;
+    margin-bottom: 7px;
+    letter-spacing: 0.02em;
+}
+

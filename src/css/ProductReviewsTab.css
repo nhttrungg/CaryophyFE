@@ -1,0 +1,120 @@
+/* Comment box container */
+.comment-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Avatar */
+.comment-box__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Input area */
+.comment-box__form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Textarea styling */
+.comment-box__textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 12px 16px;
+    resize: none;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.comment-box__textarea:focus {
+    background-color: #fff;
+    border-color: #007bff;
+}
+
+/* Submit button */
+.comment-box__submit {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.comment-box__submit:hover {
+    background-color: #0056b3;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.review-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.review-content {
+    flex: 1;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.review-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+}
+
+.review-date {
+    font-size: 13px;
+    color: #888;
+}
+
+.review-stars {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.review-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
